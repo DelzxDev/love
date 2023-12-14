@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert and Redirect</title>
+</head>
+<body>
+ 
+ <script>
+  alert("Hi love iloveyou!!! mwa")
+  alert("eto na yung araw na inaantay natin first monthsarrybnatin")
+  alert ("masaya ako nakilala kita mwa")
+  alert("sana hindi mo ako iwan hehe sad ako non :(") 
+ 
+
+var userResponse = prompt("Hindi mo'ko iiwan diba? 'yes?':");
+
+if (userResponse !== null) {
+    var lowerCaseResponse = userResponse.toLowerCase();
+
+    if (lowerCaseResponse === "yes") {
+        alert("Yehey iloveyou love!!");
+        // Add code to proceed here
+    } else {
+        alert("Naks Iloveyou so much!!.");
+        // Add code for alternative action or handling incorrect input
+    }
+} else {
+    alert("Aksyon na-cancel. Hintayin natin ang susunod na hakbang.");
+    // Add code for alternative action if the prompt is canceled
+}
+
+var userResponse = prompt("Please input  'Iloveyou':");
+
+if (userResponse !== null) {
+    var lowerCaseResponse = userResponse.toLowerCase();
+
+    if (lowerCaseResponse === "yes") {
+        alert("Iloveyou moree love mwa mwa!");
+        // Add code to proceed here
+    } else {
+        alert("Iloveyou more love mwa mwa!!.");
+        // Add code for alternative action or handling incorrect input
+    }
+} else {
+    alert("Aksyon na-cancel. Hintayin natin ang susunod na hakbang.");
+    // Add code for alternative action if the prompt is canceled
+}
+
+  alert ("baka nag tataka ka na pano koto nagagawa?")
+  
+  alert ("wag ka na mag taka mahal naman kita")
+  
+  alert("love, sorry sa mga pang aaway ko")
+  
+  alert("laging nag seselos overthink")
+  
+var userResponse = prompt("Mahal mo ba ako? '':");
+
+if (userResponse !== null) {
+    var lowerCaseResponse = userResponse.toLowerCase();
+
+    if (lowerCaseResponse === "yes") {
+        alert("mahal na mahal din kita!");
+        // Add code to proceed here
+    } else {
+        alert("mahal na mahal din kita.");
+        // Add code for alternative action or handling incorrect input
+    }
+} else {
+    alert("Aksyon na-cancel. Hintayin natin ang susunod na hakbang.");
+    // Add code for alternative action if the prompt is canceled
+}
+
+  alert("oh sige love, dito na lang dalin na kita sa exiting part AAHAHAHA")
+  alert("gusto mo na ba makita?? ")
+  alert("oh sige dahil matiyaga ka ")
+  alert("wait pala may question muna ako")
+  
+ 
+var userResponse = prompt("sorry na sa mga pang aaway ko bati na tayo  'kahit ano isagot mo haha':");
+
+if (userResponse !== null) {
+    var lowerCaseResponse = userResponse.toLowerCase();
+
+    if (lowerCaseResponse === "yes") {
+        alert("Aywe di ko alam sinagot mo if oo bati na tayo thank po hehe iloveyou!");
+        // Add code to proceed here
+    } else {
+        alert("Aywe di ko alam sinagot mo if oo bati na tayo thank po hehe iloveyou!t.");
+        // Add code for alternative action or handling incorrect input
+    }
+} else {
+    alert("Aksyon na-cancel. Hintayin natin ang susunod na hakbang.");
+    // Add code for alternative action if the prompt is canceled
+}
+ alert("babye na click mo yung button andun ka na!! iloveyou so much!!!")
+ </script>
+ 
+<button onclick="confirmAlert()">Click me</button>
+
+<script>
+    function confirmAlert() {
+        var userConfirmation = confirm("go naba talaga?? click mo yung heart kapag napunta ka na!");
+        if (userConfirmation) {
+            alert("we di nga HAHAHAH okay po go na ''!");
+            window.location.href = "in.html"; // Replace with your desired link
+        } else {
+            alert("You clicked 'No'.");
+        }
+    }
+</script>
+
+</body>
+</html>
